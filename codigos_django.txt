@@ -1,0 +1,7 @@
+virtualend venv
+pip --version
+source venv/bin/activate
+pip freeze > requirements.txt
+django-admin help 
+django-admin startproject setup .
+python manage.py runserver 
