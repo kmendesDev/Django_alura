@@ -5,3 +5,5 @@ pip freeze > requirements.txt
 django-admin help 
 django-admin startproject setup .
 python manage.py runserver 
+python manage.py help
+python manage.py collectstatic
